@@ -6,3 +6,12 @@ node_modules
 # editor swap files
 *.swp
 *.swo
+
+# secrets
+.env
+.env.local
+.env.*.local
+# build
+.next/
+node_modules/
+*.log
