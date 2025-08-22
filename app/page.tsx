@@ -860,7 +860,7 @@ export default function ThriveSitesLanding() {
             </div>
           </div>
           <div className="border-t border-border mt-6 md:mt-8 pt-6 md:pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 ThriveSites. All rights reserved. Built with care for small businesses.</p>
+            <p>&copy; 2025 ThriveSites. All rights reserved to Mahdi Alsalami. Built with care for small businesses.</p>
           </div>
         </div>
       </footer>
