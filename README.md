@@ -3,7 +3,7 @@
 Helping small businesses thrive online with affordable, professional websites.  
 We design, build, and maintain websites so business owners can focus on what they do best — serving their customers.
 
-👉 **Live Demo:** [ThriveSites](https://before-you-regret.vercel.app/) *(temporary link until official site launch)*
+👉 **Live Demo:** [ThriveSites](https://thrivesites.vercel.app/) *(temporary link until official site launch)*
 
 ---
 
