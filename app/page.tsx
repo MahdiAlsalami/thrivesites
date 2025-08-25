@@ -238,8 +238,8 @@ export default function ThriveSitesLanding() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/auto-repair-website.png"
-                  alt="Rodriguez Auto Repair Website"
+                  src="/ppforthrive.png"
+                  alt="Portfolio Website"
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -247,7 +247,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://rodriguez-auto-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://www.mahdialsalami.dev/", "_blank")}
                     >
                       <Eye className="h-4 w-4 mr-1" />
                       View Live
@@ -255,7 +255,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://rodriguez-auto-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://github.com/MahdiAlsalami/mahdi-portfolio/tree/main", "_blank")}
                     >
                       <ExternalLink className="h-4 w-4 mr-1" />
                       Visit
@@ -264,19 +264,19 @@ export default function ThriveSitesLanding() {
                 </div>
               </div>
               <CardContent className="p-4 md:p-6">
-                <h3 className="text-lg md:text-xl font-semibold mb-2">Rodriguez Auto Repair</h3>
+                <h3 className="text-lg md:text-xl font-semibold mb-2">Portfolio Website</h3>
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Professional automotive service site with appointment booking and service information.
+                  A custom personal portfolio built with Next.js and Tailwind CSS to showcase my skills, projects, and journey. I also create personal portfolios like this for others.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary" className="text-xs">
-                    Booking System
+                    Next.js
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    Local SEO
+                    Tailwind CSS
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    Reviews
+                    Personal Branding
                   </Badge>
                 </div>
               </CardContent>
