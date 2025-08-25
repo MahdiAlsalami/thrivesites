@@ -208,7 +208,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://before-you-regret.vercel.app/", "_blank")}
+                      onClick={() => window.open("https://github.com/MahdiAlsalami/BeforeYouRegret", "_blank")}
                     >
                       <ExternalLink className="h-4 w-4 mr-1" />
                       Visit
@@ -217,7 +217,7 @@ export default function ThriveSitesLanding() {
                 </div>
               </div>
               <CardContent className="p-4 md:p-6">
-                <h3 className="text-lg md:text-xl font-semibold mb-2">Chen's Bakery</h3>
+                <h3 className="text-lg md:text-xl font-semibold mb-2">Before You Regret It</h3>
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
                   An AI-powered tool that checks your posts, tweets, or messages before sending—highlighting risky wording and suggesting safer rewrites.
                 </p>
