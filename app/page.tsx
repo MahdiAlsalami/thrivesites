@@ -285,8 +285,8 @@ export default function ThriveSitesLanding() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/elegant-flower-shop.png"
-                  alt="Thompson Florist Website"
+                  src="/cityofdown.jpg"
+                  alt="Downey Premier Basketball (In Development)"
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -294,7 +294,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://thompson-florist-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://www.facebook.com/p/Premier-Elite-National-Youth-Basketball-Team-100087313802570/", "_blank")}
                     >
                       <Eye className="h-4 w-4 mr-1" />
                       View Live
@@ -302,7 +302,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://thompson-florist-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://www.facebook.com/p/Premier-Elite-National-Youth-Basketball-Team-100087313802570/", "_blank")}
                     >
                       <ExternalLink className="h-4 w-4 mr-1" />
                       Visit
@@ -311,19 +311,19 @@ export default function ThriveSitesLanding() {
                 </div>
               </div>
               <CardContent className="p-4 md:p-6">
-                <h3 className="text-lg md:text-xl font-semibold mb-2">Thompson Florist</h3>
+                <h3 className="text-lg md:text-xl font-semibold mb-2">Downey Premier Basketball (In Development)</h3>
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  Beautiful floral showcase with online ordering for special occasions and events.
+                  Currently building a professional website for the City of Downey’s Premier Basketball Program. The platform will showcase schedules, training, and program highlights to support the community and athletes. Stay tuned for the launch!
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary" className="text-xs">
-                    Gallery
+                    Community
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    Event Planning
+                    Sports
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    Contact Forms
+                    In Progress
                   </Badge>
                 </div>
               </CardContent>
