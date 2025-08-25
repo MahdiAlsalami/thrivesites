@@ -39,7 +39,6 @@ export default function ThriveSitesLanding() {
 
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // In a real app, this would submit to your backend
     alert("Thank you for reaching out! We'll get back to you within 24 hours to discuss your project.")
   }
 
@@ -192,8 +191,8 @@ export default function ThriveSitesLanding() {
             <Card className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="relative overflow-hidden rounded-t-lg">
                 <img
-                  src="/modern-bakery-homepage.png"
-                  alt="Chen's Bakery Website"
+                  src="/byri.png"
+                  alt="Before You Regret It"
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -201,7 +200,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://chensbakery-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://before-you-regret.vercel.app/", "_blank")}
                     >
                       <Eye className="h-4 w-4 mr-1" />
                       View Live
@@ -209,7 +208,7 @@ export default function ThriveSitesLanding() {
                     <Button
                       size="sm"
                       variant="secondary"
-                      onClick={() => window.open("https://chensbakery-demo.vercel.app", "_blank")}
+                      onClick={() => window.open("https://before-you-regret.vercel.app/", "_blank")}
                     >
                       <ExternalLink className="h-4 w-4 mr-1" />
                       Visit
@@ -220,17 +219,17 @@ export default function ThriveSitesLanding() {
               <CardContent className="p-4 md:p-6">
                 <h3 className="text-lg md:text-xl font-semibold mb-2">Chen's Bakery</h3>
                 <p className="text-muted-foreground mb-4 text-sm md:text-base">
-                  A warm, inviting website showcasing fresh baked goods with online ordering and location details.
+                  An AI-powered tool that checks your posts, tweets, or messages before sending—highlighting risky wording and suggesting safer rewrites.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary" className="text-xs">
-                    E-commerce
+                    AI
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    Mobile-First
+                    Next.js
                   </Badge>
                   <Badge variant="secondary" className="text-xs">
-                    SEO Optimized
+                    TypeScript
                   </Badge>
                 </div>
               </CardContent>
